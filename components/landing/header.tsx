@@ -45,6 +45,7 @@ export function Header() {
           {[
             { label: "Como Funciona", href: "#como-funciona" },
             { label: "Porquê", href: "#porque" },
+            { label: "Demo", href: "#demo" },
             { label: "O Futuro", href: "#o-futuro" },
           ].map((item, i) => (
             <motion.a

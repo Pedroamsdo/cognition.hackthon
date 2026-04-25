@@ -2,6 +2,7 @@ import { Header } from "@/components/landing/header"
 import { HeroSplit } from "@/components/landing/hero-split"
 import { HowItWorks } from "@/components/landing/how-it-works"
 import { WhySection } from "@/components/landing/why-section"
+import { DemoSection } from "@/components/landing/demo-section"
 import { OFuturoSection } from "@/components/landing/o-futuro-section"
 import { Footer } from "@/components/landing/footer"
 import { GlobalFallingBackground } from "@/components/landing/global-falling-background"
@@ -15,6 +16,7 @@ export default function HomePage() {
         <HeroSplit />
         <HowItWorks />
         <WhySection />
+        <DemoSection />
         <OFuturoSection />
         <Footer />
       </div>
